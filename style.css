@@ -1,0 +1,201 @@
+body{
+    background-color: rgb(0,0,33);
+    color:white;
+    font-family :'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;;
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18,18,62);
+    
+}
+nav ul{
+display: flex;
+justify-content: center;
+}
+nav ul li{
+    list-style:none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+nav ul li a:hover{
+    color:rgb(153,153,226);
+    font-size: 1.04rem;
+}
+
+.firstsection{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 80px 0;
+
+}
+.firstsection > div{
+    width:30%;
+}
+.leftsection{
+   font-size: 2rem;     
+}
+.leftsection .buttons{
+    padding: 53px 22px;
+}
+.leftsection .btn{
+    padding:12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor:pointer ;
+
+}
+
+.rightsection img{
+    width: 80%;
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content {
+    padding: 20px;
+}
+.fullscreen-container {
+    display: flex;
+    justify-content: center;
+    min-height: 60vh;
+    align-items: center;
+    background-color: #f4f4f4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.buttons-container {
+    text-align: center;
+    margin: 20px;
+}
+.action-button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ease-out, box-shadow 0.3s ease-out; /* Added box-shadow transition */
+}
+
+.action-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added subtle box shadow on hover */
+}
+
+#result-container {
+    position: relative;
+    z-index: 2;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #d3d3d3;
+ /* Set a unique background color */
+    padding: 20px;
+    border-radius: 10px; /* Add some border-radius for a rounded look */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+    font-family: 'Arial', sans-serif; /* Change text font */
+    max-width: 800px; /* Set a maximum width for better readability */
+    margin: 0 auto; /* Center the container horizontally */
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+    margin-bottom: 0px;
+}
+
+.purpule{
+    color:rgb(178, 120, 231);
+}
+#element{
+    color:rgb(178, 120, 231);
+}
+.secondsection{
+    max-width: 80vw;
+    margin:auto;
+    height:80vh;
+}
+.secondsection h1{
+    font-size: 1.9rem;
+}
+.text-gray{
+ color:gray;   
+}
+.secondsection .box{
+    background:#fff;
+    width: 82vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.secondsection .vertical{
+    height: 93px;
+    width: 1px;
+    background: #fff;
+    margin:0 114px;
+}
+.img-top{
+    width:23px;
+    position:relative;
+    top: -32px;
+    left:-9px
+}
+.vertical-title{
+position:relative;
+top:75px;
+width:150px;
+font-size: 20px;
+}
+.vertical-desc{
+position: relative;
+top:86px;
+color:gray;
+width:150px;
+font-size: 9px;
+}
+footer{
+    background-color: rgb(55, 28, 117);
+    height:33px
+}
+.footer{
+    display: flex;
+    padding:23px 122px;
+}
+n-linkedin {
+    background: #0E76A8;
+    border-radius: 0;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #084461;
+  }
+  .btn-linkedin:link, .btn-linkedin:visited {
+    color: #fff;
+  }
+  .btn-linkedin:active, .btn-linkedin:hover {
+    background: #084461;
+    color: #fff;
+  }

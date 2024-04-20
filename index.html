@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Poppins:ital@1&family=Roboto:wght@100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Poppins:ital,wght@1,400;1,700&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+    <title>portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Tahseen's portfolio
+            </div>
+            <div class="right">
+                <ul>
+                   <li><a href="/">Home</a></li>
+                   <li><a href="/">About</a></li>
+                   <li><a href="/">Services</a></li>
+                   <li><a  href="#Project">Project</a></li>
+                   <li><a href="/">Contact</a></li>
+                </ul>
+            </div>
+    </header>
+    <main>
+        
+            <section class="firstsection">
+                <div class="leftsection">
+                Hi, My name is <span class="purpule">Tahseenullah Ihsan</span> 
+                <div>and i am  passionate about</div>
+                   
+                
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="#" title="LinkedIn" class="btn btn-linkedin btn-lg"><i class="fa fa-linkedin fa-fw"></i>Download Resume</a>
+                    <a href="www.linkedin.com/in/tahseenullah-ihsan" title="LinkedIn" class="btn btn-linkedin btn-lg"><i class="fa fa-linkedin fa-fw"></i>Visit LinkedIn</a>
+                </div>
+
+                </div>
+                <div class="rightsection">
+                    <img src="bg.png"/>
+                </div>
+            </section>
+            <hr>
+            <section class="secondsection">
+                <span class="text-gray">what i have done so far</span>
+                <h1>Work Experince</h1>
+                <div class="box">
+                    <div class="vertical">
+                        <img src="html.png" alt="" class="img-top">
+                        <div class="vertical-title">HTML Developer (2010-2022)</div>
+                        <div class="vertical-desc">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+                            an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        </div>
+                    </div>
+
+                     <div class="vertical">
+                        <img src="developer.png" alt="" class="img-top">
+                        <div class="vertical-title">HTML Developer (2010-2022)</div>
+                        <div class="vertical-desc">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+                            an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <img src="tacher.png" alt="" class="img-top">
+                        <div class="vertical-title">HTML Developer (2010-2022)</div>
+                        <div class="vertical-desc">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+                            an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <img src="graphic.png" alt="" class="img-top">
+                        <div class="vertical-title">HTML Developer (2010-2022)</div>
+                        <div class="vertical-desc">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+                            an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <img src="developer.png" alt="" class="img-top">
+                        <div class="vertical-title">HTML Developer (2010-2022)</div>
+                        <div class="vertical-desc">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+                            an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        </div>
+                    </div>
+            </section>
+
+
+<div id="Project">
+            <div class="fullscreen-container">
+                <div class="buttons-container">
+                    <button class="action-button" onclick="loadData()">Load Data</button>
+                    <button class="action-button" onclick="prepareData()">Prepare Data For Training</button>
+                    <button class="action-button" onclick="applyLogisticRegression()">Apply Logistic Regression</button>
+                    <button class="action-button" onclick="applyDecisionTree()">Apply Decision Tree</button>
+                    <button class="action-button" onclick="applyRandomForest()">Apply Random Forest</button>
+                    <button class="action-button" onclick="applySVM()">Apply SVM</button>
+                    <button class="action-button" onclick="applyKNN()">Apply K-Nearest Neighbors</button>
+                    
+                    <button class="action-button" onclick="CalculateSensitivitySpecificity()">Calculate Sensitivity Specificity</button>
+                    <button class="action-button" onclick="CalculateROCAUC()">Calculate ROCAUC Curve</button> 
+                    <button class="action-button" onclick="CalculateROCAUC()">Find Sensitivity at Specificity 0.90</button>
+                </div>
+            </div>
+        </div>
+            <div id="result-container">
+                <pre>
+
+                </pre>
+            </div>
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['<i>Front-End Developer</i>.', '&amp;Graphic Designer.','<i>Machine Learning Engineer</i>.','Network Admanistator'],
+          typeSpeed: 100,
+        });
+      </script>
+    <footer>
+        
+        <div class="footer-first" style="text-align: center;">
+            <i>&copy; TahseenUllah Ihsan</i>
+        </div>
+        
+            
+            
+
+
+        </div>
+    </footer>
+
+</body>
+</html>
